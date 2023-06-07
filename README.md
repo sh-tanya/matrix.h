@@ -109,3 +109,12 @@ If the determinant of the matrix is zero, then it does not have an inverse.
 The formula to calculate the inverse of matrix is $`A^{-1}=\frac{1} {|A|} × A_*^T`$
 
 
+According to my task:
+- The library is developed in C language of C11 standard using gcc compiler
+- Code is checked following the Google style
+- Prefix s21_ before each function is used
+- Full coverage of library functions code with unit-tests with the Check library is provided
+- Makefile for building the library and tests (with the targets all, clean, test, s21_matrix.a, gcov_report) is provided
+- The gcov_report target should generate a gcov report in the form of an html page
+- Verifiable accuracy of the fractional part is up to 6 decimal places
+
